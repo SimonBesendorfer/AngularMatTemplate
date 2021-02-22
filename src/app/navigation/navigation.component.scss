@@ -1,7 +1,7 @@
 .header {
-    width: calc(100vw - 16px);
+    width: calc(100vw - 32px);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: #262626;
     padding: 16px;
     a {

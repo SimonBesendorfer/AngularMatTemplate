@@ -1,0 +1,25 @@
+<div class="header">
+
+    <div class="burgerBtn hideDesktop">
+        <div id="menu-bar">
+            <div id="menu" (click)="openMenue()">
+                <div id="bar1" class="bar" [class.change-bar1]="showMenue"></div>
+                <div id="bar2" class="bar" [class.change-bar2]="showMenue"></div>
+                <div id="bar3" class="bar" [class.change-bar3]="showMenue"></div>
+            </div>
+            
+    
+        </div>
+    </div>
+</div>
+
+
+<div [class.navMobileOpen]="showMenue"  class="navMobile">
+    <ul>
+        <li><a routerLink="/projects" (click)="showMenue = false">Projects</a></li>
+        <li><a routerLink="/about" (click)="showMenue = false">About</a></li>
+        <li><a routerLink="/private" (click)="showMenue = false">Private</a></li>
+        <li><a routerLink="/contact" (click)="showMenue = false">Contact</a></li>
+        <li><a routerLink="/imprint" (click)="showMenue = false">Imprint</a></li>
+    </ul>
+</div>

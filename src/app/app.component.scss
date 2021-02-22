@@ -1,0 +1,10 @@
+@media (max-width: 960px) {
+    .navDesktop {
+        display: none !important;
+    }
+}
+@media (min-width: 961px) {
+    .navMobile {
+        display: none !important;
+    }
+}
